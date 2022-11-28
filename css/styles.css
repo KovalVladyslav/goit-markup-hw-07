@@ -1,13 +1,13 @@
-html {
+/* html {
   box-sizing: border-box;
-}
-*,
+} */
+/* *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -26,35 +26,35 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-body {
+/* body {
   background-color: var(--primary-background-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-}
-.container {
+} */
+/* .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-button {
+/* button {
   display: block;
   cursor: pointer;
   border: none;
   border-radius: 4px;
-}
+} */
 
-:root {
+/* :root {
   --primary-title-color: #212121;
   --paragraph-color: #757575;
   --primary-background-color: #ffffff;
@@ -65,8 +65,8 @@ button {
   --items: 3;
   --indent: 30px;
   --animate: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hidden-title {
+} */
+/* .hidden-title {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -77,18 +77,18 @@ button {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.primary-title {
+/* .primary-title {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-}
+} */
 /* Logotype */
-.logo {
+/* .logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -102,9 +102,9 @@ button {
 
 .logo__studio--footer {
   color: #ffffff;
-}
+} */
 /* Header*/
-.nav__list,
+/* .nav__list,
 .link {
   position: relative;
   font-weight: 500;
@@ -191,10 +191,10 @@ button {
 }
 .nav__list {
   margin-left: 93px;
-}
+} */
 
 /* Hero */
-.hero {
+/* .hero {
   background-color: var(--footer-bg-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../Images/hero-bgc.jpg);
@@ -243,9 +243,9 @@ button {
 .hero__button:hover,
 .hero__button:focus {
   background-color: var(--hero-btn-hover);
-}
+} */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -296,12 +296,10 @@ button {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-
-  
 }
 .modal__button--icon {
   fill: #000000;
-  transition: fill  var(--animate);
+  transition: fill var(--animate);
 }
 .modal__button:hover .modal__button--icon {
   fill: var(--accent-color);
@@ -406,8 +404,8 @@ button {
   background-size: 0;
   background-repeat: no-repeat;
   background-position: center;
-  transition: background-size var(--animate), outline-color var(--animate), 
-  background-color var(--animate);
+  transition: background-size var(--animate), outline-color var(--animate),
+    background-color var(--animate);
 }
 .modal-form__checkbox:checked {
   outline-color: var(--accent-color);
@@ -441,11 +439,11 @@ button {
 .modal-form__btn:hover,
 .modal-form__btn:focus {
   background-color: var(--hero-btn-hover);
-}
+} */
 
 /* what we have? */
 
-.benefits__box {
+/* .benefits__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,10 +471,10 @@ button {
 .benefits__paragraph {
   line-height: 1.71;
   color: var(--paragraph-color);
-}
+} */
 /* what we do */
 
-.what-we-do__photo {
+/* .what-we-do__photo {
   display: flex;
   gap: 30px;
 
@@ -506,10 +504,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* Our team */
-.our-team {
+/* .our-team {
   background-color: var(--additional-bg-color);
 }
 .our-team__list {
@@ -517,8 +515,6 @@ button {
   gap: 30px;
   margin-top: 50px;
 }
-
-
 
 .member {
   background: #ffffff;
@@ -549,8 +545,8 @@ button {
   color: var(--paragraph-color);
 
   margin-bottom: 16px;
-}
-.socials {
+} */
+/* .socials {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -577,10 +573,10 @@ button {
 .socials__link:focus {
   background-color: var(--accent-color);
   color: var(--primary-background-color);
-}
+} */
 
 /* Best clients */
-.best-clients__list {
+/* .best-clients__list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
@@ -606,10 +602,10 @@ button {
 .best-clients__link:hover,
 .best-clients__link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Footer  */
-.footer {
+/* .footer {
   background-color: var(--footer-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -658,7 +654,6 @@ button {
   color: var(--accent-color);
 }
 
-
 .footer__social-container {
   margin-left: 70px;
 }
@@ -669,7 +664,6 @@ button {
 
   color: #ffffff;
 }
-
 
 .footer__social-list {
   display: flex;
@@ -696,12 +690,11 @@ button {
 }
 .footer__social-icon {
   fill: #ffffff;
-}
-
+} */
 
 /* subscription form */
-.subscription {
-  margin-left: auto; 
+/* .subscription {
+  margin-left: auto;
 }
 
 .subscription__call {
@@ -737,8 +730,6 @@ button {
   color: #ffffff;
 }
 
-
-
 .subscription__btn {
   display: flex;
   justify-content: center;
@@ -767,15 +758,15 @@ button {
   content: '';
   height: 24px;
   width: 24px;
- background-image: url(../Images/telegram.png);
+  background-image: url(../Images/telegram.png);
 }
 .subscription__btn:hover,
 .subscription__btn:focus {
   background-color: var(--hero-btn-hover);
-}
+} */
 
 /* Portfolio page */
-.filters {
+/* .filters {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -804,8 +795,8 @@ button {
   color: var(--primary-background-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.photos {
+} */
+/* .photos {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
@@ -848,14 +839,10 @@ button {
   color: var(--paragraph-color);
 
   margin-top: 4px;
-}
-
-
-
-
+} */
 
 /* overlay */
-.team-thumb {
+/* .team-thumb {
   position: relative;
   overflow: hidden;
 }
@@ -890,5 +877,4 @@ button {
 .photos__link:hover .overlay-portfolio,
 .photos__link:focus .overlay-portfolio {
   transform: translateY(0);
-}
-
+} */
